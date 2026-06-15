@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Yatri Travels"
+version = "1.0.0"
+id = "artifacts/yatri-travels"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22319
+
+[services.development]
+run = "pnpm --filter @workspace/yatri-travels run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/yatri-travels", "run", "build" ]
+publicDir = "artifacts/yatri-travels/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22319"
+BASE_PATH = "/"

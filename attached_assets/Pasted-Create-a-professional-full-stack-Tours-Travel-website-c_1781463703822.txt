@@ -1,0 +1,178 @@
+Create a professional full-stack Tours & Travel website called "Yatri Travels".
+
+Technology Stack:
+- Frontend: React.js, JavaScript, HTML5, CSS3
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT Login/Register
+- Payment Integration: Razorpay or Stripe
+- Responsive Design for Windows, Mac, Android, iPhone, Tablets
+- Modern UI/UX with professional travel theme
+
+Website Features:
+
+1. Home Page
+   - Hero banner with travel images
+   - Search Tour Packages
+   - Featured Destinations
+   - Call-to-Action buttons
+   - Responsive Navbar
+
+2. Destinations Page
+   Include tour packages for:
+   - Haridwar
+   - Rishikesh
+   - Vaishno Devi
+   - Mathura
+   - Vrindavan
+   - Rameshwaram
+   - Kedarnath
+   - Badrinath
+   - Gangotri
+   - Yamunotri
+   - Char Dham Yatra
+
+   Each destination should contain:
+   - Multiple images
+   - Description
+   - Package price
+   - Duration
+   - Available seats
+   - Booking button
+
+3. User Authentication
+   - Register
+   - Login
+   - Forgot Password
+   - JWT Authentication
+   - User Dashboard
+
+4. Booking System
+   - Select destination
+   - Select travel date
+   - Number of seats
+   - Real-time seat availability
+   - Booking confirmation
+   - Booking history
+
+5. Payment System
+   - Razorpay/Stripe integration
+   - Secure online payment
+   - Payment receipt
+   - Booking invoice
+
+6. Customer Reviews
+   - Star rating
+   - Add review
+   - Edit review
+   - Delete review
+   - Display reviews
+
+7. Gallery Page
+   - Photo upload
+   - Travel gallery
+   - Destination images
+   - Lightbox preview
+
+8. Contact Page
+   Company Name:
+   Yatri Travels
+
+   Address:
+   Shivraj Municipality Ward No. 06,
+   Kapilvastu, Nepal
+
+   Contact Number:
+   +977-XXXXXXXXXX
+
+   Features:
+   - Contact Form
+   - Google Maps Integration
+   - Email Contact
+
+9. Admin Panel
+   - Admin Login
+   - Manage Packages
+   - Manage Users
+   - Manage Bookings
+   - Manage Reviews
+   - Manage Gallery Images
+   - View Payments
+
+10. Database Collections
+
+Users:
+   - name
+   - email
+   - password
+   - role
+
+Packages:
+   - title
+   - location
+   - description
+   - images
+   - price
+   - duration
+   - seatsAvailable
+
+Bookings:
+   - userId
+   - packageId
+   - travelDate
+   - seatsBooked
+   - paymentStatus
+
+Reviews:
+   - userId
+   - rating
+   - comment
+
+Gallery:
+   - imageUrl
+   - title
+
+11. UI Design
+   - Modern travel theme
+   - Smooth animations
+   - Mobile First Design
+   - Dark/Light Mode
+   - Professional Footer
+   - Responsive Cards
+   - SEO Friendly
+
+12. Additional Features
+   - WhatsApp Chat Button
+   - Email Notifications
+   - Search and Filters
+   - Package Comparison
+   - FAQ Section
+   - Terms and Conditions
+   - Privacy Policy
+
+13. Project Structure
+
+/client
+  /src
+    /components
+    /pages
+    /assets
+    /services
+
+/server
+  /controllers
+  /models
+  /routes
+  /middleware
+
+14. Create complete source code with:
+   - React Frontend
+   - Node.js Backend
+   - MongoDB Database Connection
+   - Authentication
+   - Booking APIs
+   - Payment APIs
+   - Admin Dashboard
+   - Responsive CSS
+
+Generate production-ready code with professional design.
